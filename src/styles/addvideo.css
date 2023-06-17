@@ -1,0 +1,52 @@
+.pic img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.515), 0 6px 20px 0 rgba(0, 0, 0, 0.515);
+    
+}
+
+.add{
+    display: flex;
+    margin-left: 23%;
+   
+}
+.container{
+    background-color: aliceblue;
+    width: 400px;
+    height: 570px;
+    padding-left: 30px;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.515), 0 6px 20px 0 rgba(0, 0, 0, 0.515);
+    
+}
+
+.heading h1{
+    font-size: 20px;
+    
+}
+.heading p{
+    font-size: 15px;
+}
+.fill form{
+    width: 150px;
+   
+    margin: 20px 0px;
+}
+label{
+    margin-top: 20px;
+}
+.fill input{
+    margin-top: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: aliceblue;
+    width: 300px;
+}
+.fill button{
+    margin: 15px 0px;
+    background-color: brown;
+    color: aliceblue;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+}

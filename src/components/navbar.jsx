@@ -3,20 +3,25 @@ import YTlogo from '../images/youtube_logo_icon_167938.png'
 import videologo from '../images/video_plus_icon_136058.png'
 import bell_logo from '../images/alarm_icon-icons.com_48364.png'
 import '../styles/navbar.css'
+import { Link } from 'react-router-dom'
 function Navbar() {
     return (
         <div className="navbar">
             <div className="logo">
-                <img src={YTlogo} alt="" width={130}/> 
+                <img src={YTlogo} alt="" width={130} />
             </div>
             <div className="searchBar">
                 <input type="text" placeholder='Search' />
             </div>
             <div className="userOptions">
-                <img src={videologo} alt="" width={35} />
-                <img src={bell_logo} alt="" width={35}/>
+                <div className="navlinks">
+                    <Link to="/">Home</Link>
+                    <Link to="/add-video">Add Videos</Link>
+                    <img src={videologo} alt="" width={35} />
+                    <img src={bell_logo} alt="" width={35} />
+                </div>
                 <div className="profile">
-                <h4>FSE</h4>
+                    <h4>FSE</h4>
                 </div>
             </div>
         </div>
